@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background-color: rgb(233, 233, 225);
+}
+
+.box-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /*align-items: center;
+  text-align: center;*/
+}
+
+.bth {
+  padding-top: 15px;
+  padding-bottom: 14px;
+
+  text-align: center;
+  color: aliceblue;
+}
+
+.box-header .bth {
+  background-color: gray;
+  position: absolute;
+  height: 50px;
+  width: 180px;
+}
+.box-header .reg {
+  position: absolute;
+  left: 113px;
+  background-color: #667eea;
+  height: 50px;
+  width: 180px;
+  text-align: center;
+}
+.reg {
+  padding-top: 15px;
+  padding-bottom: 14px;
+
+  text-align: center;
+  color: aliceblue;
+}
+
+.login-screen {
+  width: 365px;
+  height: 505px;
+  background-color: ghostwhite;
+  padding: 30px;
+  border-radius: 30px solid lightgray;
+  box-shadow: 10px 10px #667eea;
+}
+
+.login-screen .title {
+  text-align: center;
+  font-size: 18px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 700px;
+  color: #667eea;
+}
+
+.login-screen .logo {
+  margin-top: 10px;
+  height: 50px;
+  width: 73px;
+  position: relative;
+  left: 120px;
+}
+
+.login-screen .singin {
+  padding-left: 80px;
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+.login-screen .singin:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin-top: 15px;
+}
+
+form .input-container {
+  height: 50px;
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+
+.input-container input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400px;
+  font-family: 'Roboto';
+  padding-left: 23px;
+}
+
+.input-container .icon {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  color: gray;
+  transform: translateY(-50%);
+}
+
+.para:hover {
+  text-decoration: underline;
+}
+
+.input-container .btn-1 {
+  height: 100%;
+  width: 100%;
+  background-color: #667eea;
+  font-size: 18px;
+  outline: none;
+}
+
+.input-container .btn-2 {
+  height: 100%;
+  width: 100%;
+  font-weight: 500px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  
+}
+.para {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+  padding: 10px;
+}
+.para:hover {
+  text-decoration: underline;
+}
